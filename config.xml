@@ -35,6 +35,8 @@
         <plugin name="Compass" value="CDVLocation" />
         <plugin name="Accelerometer" value="CDVAccelerometer" />
         <plugin name="Camera" value="CDVCamera" />
+        <plugin name="Camera" value="org.apache.cordova.CameraLauncher" />
+        <plugin name="Capture" value="org.apache.cordova.Capture"/>
         <plugin name="NetworkStatus" value="CDVConnection" />
         <plugin name="Contacts" value="CDVContacts" />
         <plugin name="Echo" value="CDVEcho" />
@@ -48,7 +50,17 @@
         <plugin name="Battery" value="CDVBattery" />
         <plugin name="Globalization" value="CDVGlobalization" />
         <plugin name="InAppBrowser" value="CDVInAppBrowser" />
+        <plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
     </plugins>
+    
+        <feature name="http://api.phonegap.com/1.0/battery"/>
+        <feature name="http://api.phonegap.com/1.0/camera"/>
+        <feature name="http://api.phonegap.com/1.0/contacts"/>
+        <feature name="http://api.phonegap.com/1.0/file"/>
+        <feature name="http://api.phonegap.com/1.0/geolocation"/>
+        <feature name="http://api.phonegap.com/1.0/media"/>
+        <feature name="http://api.phonegap.com/1.0/network"/>
+        <feature name="http://api.phonegap.com/1.0/notification"/>
 
     
     <!-- Customize your app and platform with the preference element. -->
